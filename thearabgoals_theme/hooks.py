@@ -47,6 +47,9 @@ app_license = "MIT"
 #	"Role": "home_page"
 # }
 
+website_context = {
+    "splash_image": "/assets/thearabgoals_theme/images/arab_goals.png"
+}
 # Generators
 # ----------
 
@@ -58,7 +61,7 @@ app_license = "MIT"
 
 # before_install = "thearabgoals_theme.install.before_install"
 # after_install = "thearabgoals_theme.install.after_install"
-
+after_install = "thearabgoals_theme.install.after_install"
 # Uninstallation
 # ------------
 
