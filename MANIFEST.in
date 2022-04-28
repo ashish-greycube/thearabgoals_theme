@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include thearabgoals_theme *.css
+recursive-include thearabgoals_theme *.csv
+recursive-include thearabgoals_theme *.html
+recursive-include thearabgoals_theme *.ico
+recursive-include thearabgoals_theme *.js
+recursive-include thearabgoals_theme *.json
+recursive-include thearabgoals_theme *.md
+recursive-include thearabgoals_theme *.png
+recursive-include thearabgoals_theme *.py
+recursive-include thearabgoals_theme *.svg
+recursive-include thearabgoals_theme *.txt
+recursive-exclude thearabgoals_theme *.pyc
